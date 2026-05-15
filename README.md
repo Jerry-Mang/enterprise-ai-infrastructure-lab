@@ -92,3 +92,17 @@ Planned future areas include:
 - Enterprise AI integration
 
 ---
+
+# Projects
+
+## 1. 172.16.10 Enterprise Testing Network
+
+- Cisco 1941 and Catalyst 3560
+- VLAN segmentation
+- Router-on-a-stick
+- NAT/PAT
+- VMware ESXi networking
+- SSH management
+- Infrastructure troubleshooting
+
+[View Project](./projects/172.16.10-testing-network.md)
