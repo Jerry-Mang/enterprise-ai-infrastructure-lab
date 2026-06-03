@@ -2,6 +2,57 @@
 
 This repository documents the development of an enterprise infrastructure testing environment designed to simulate real-world networking, virtualization, wireless, CCTV and AI-assisted infrastructure scenarios.
 
+## Featured Projects
+
+| Project                              | Technologies                                    | Status      |
+| ------------------------------------ | ----------------------------------------------- | ----------- |
+| 172.16.10 Enterprise Testing Network | Cisco 1941, Catalyst 3560, VLANs, NAT, ESXi     | Complete    |
+| Remote Infrastructure Access Lab     | Tailscale VPN, ESXi, Windows Server, Cisco      | Complete    |
+| Remote Station Trunk Troubleshooting | 802.1Q Trunking, Ruijie ES226, Fault Isolation  | Complete    |
+| Active Directory Enterprise Lab      | Windows Server 2019, DNS, DHCP, Domain Services | In Progress |
+
+---
+
+## Skills Demonstrated
+
+### Networking
+
+* Cisco IOS CLI
+* VLAN Configuration
+* 802.1Q Trunking
+* Router-on-a-Stick
+* NAT/PAT
+* OSPF Fundamentals
+* DHCP
+* DNS
+
+### Infrastructure
+
+* VMware ESXi
+* Windows Server 2019
+* Active Directory
+* Windows 10 Domain Join
+* Group Policy Fundamentals
+
+### Remote Access
+
+* Tailscale VPN
+* SSH Management
+* Remote Infrastructure Administration
+
+### CCTV and Physical Infrastructure
+
+* Hikvision NVR
+* IP Camera Commissioning
+* PoE Switching
+* CCTV Network Troubleshooting
+
+### Documentation
+
+* Technical Documentation
+* Troubleshooting Reports
+* Infrastructure Project Documentation
+
 
 ---
 
