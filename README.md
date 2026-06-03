@@ -53,7 +53,21 @@ This repository documents the development of an enterprise infrastructure testin
 * Troubleshooting Reports
 * Infrastructure Project Documentation
 
+---
 
+# Current Lab Network
+
+Management Network:
+
+172.16.10.0/24
+
+Default Gateway:
+
+172.16.10.1
+
+ESXi Host:
+
+172.16.10.200
 ---
 
 # Phase 1 - Enterprise Infrastructure Ecosystem
@@ -85,22 +99,6 @@ Current and future goals:
 - AI-assisted operations
 - Internal AI portal concepts
 - Log analysis and monitoring
-
----
-
-# Current Lab Network
-
-Management Network:
-
-172.16.10.0/24
-
-Default Gateway:
-
-172.16.10.1
-
-ESXi Host:
-
-172.16.10.200
 
 ---
 
