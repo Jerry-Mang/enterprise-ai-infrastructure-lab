@@ -169,7 +169,7 @@ Skills Demonstrated:
 
 ---
 
-2. Remote Infrastructure Access Lab
+## 2. Remote Infrastructure Access Lab
 
 Technologies:
 
@@ -185,4 +185,23 @@ VPN Deployment
 Remote Administration
 Infrastructure Troubleshooting
 
-[View Project](./projects/172.16.10-testing-network.md)
+[View Project](./projects/remote-infrastructure-access-lab.md)
+
+
+## 3.Remote Station Trunk Deployment and Troubleshooting
+
+Technologies:
+
+- Cisco Catalyst 3560
+- Ruijie ES226
+- 802.1Q Trunking
+- VLAN Design
+
+Skills Demonstrated:
+
+- Layer 1 Troubleshooting
+- Fault Isolation
+- Trunk Configuration
+- CCTV Infrastructure Support
+
+
