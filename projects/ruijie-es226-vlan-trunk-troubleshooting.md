@@ -36,7 +36,7 @@ Figure 1 - IPC connected successfully to ES226 Port1.
 
 ### Access VLAN1
 
-![vlan 20](../images/ES226_vlan_20.png)
+![vlan 20](../images/ES226_default_vlan1.png)
 
 Figure 2 - Uplink port configured as Access VLAN1.
 
