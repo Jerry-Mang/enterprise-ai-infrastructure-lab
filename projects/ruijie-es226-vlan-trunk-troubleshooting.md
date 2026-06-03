@@ -29,13 +29,14 @@ After configuring ports 1-10 as VLAN20 access ports:
 
 Port1 Connected
 
-![Network Topology](../images/ES226_port1.png)
+![port 1](../images/ES226_port1.png)
 
 Figure 1 - IPC connected successfully to ES226 Port1.
 
 
-Access VLAN1
+### Access VLAN1
 
+![vlan 20](../images/ES226_vlan_20.png)
 
 Figure 2 - Uplink port configured as Access VLAN1.
 
