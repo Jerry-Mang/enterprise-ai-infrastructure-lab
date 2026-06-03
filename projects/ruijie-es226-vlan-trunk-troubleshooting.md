@@ -29,7 +29,8 @@ After configuring ports 1-10 as VLAN20 access ports:
 
 Port1 Connected
 
-![Network Topology](../images/topology_diagram_1.png)
+![Network Topology](../images/ES226_port1.png)
+
 Figure 1 - IPC connected successfully to ES226 Port1.
 
 
