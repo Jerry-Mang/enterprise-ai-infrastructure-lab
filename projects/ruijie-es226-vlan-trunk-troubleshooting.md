@@ -83,7 +83,7 @@ Port Type: Trunk
 Native VLAN: 1
 Allowed VLANs: 1,20,50
 
-
+![vlan 1,20,50](../images/ES226_vlan_1_20_50_added.png)
 
 Figure 4 - Final trunk configuration.
 
