@@ -2,6 +2,10 @@
 
 This repository documents the development of an enterprise infrastructure testing environment designed to simulate real-world networking, virtualization, wireless, CCTV and AI-assisted infrastructure scenarios.
 
+🌐 Live Project Site:
+
+https://jerry-mang.github.io/enterprise-ai-infrastructure-lab/
+
 ## Featured Projects
 
 | Project                              | Technologies                                    | Status      |
