@@ -5,17 +5,28 @@ The objective was to extend the existing VLAN20 CCTV testing environment to a se
 ## Network Topology
 
 ```text
-Cisco Catalyst 3560
-Fa0/14 (802.1Q Trunk)
-        |
-        |
-ES226 Port24 (Trunk)
-        |
-   +----+----+
-   |         |
- Port1     Port7
- IPC       IPC
- VLAN20    VLAN20
+Internet
+    |
+5G Router
+    |
+Cisco 1941
+    |
+Cisco 3560
+    |
+VMware ESXi
+    |
+----------------
+| Windows Server
+| Windows 10
+----------------
+
+Management Network:
+
+172.16.10.0/24
+
+Default Gateway:
+
+172.16.10.1
 ```
 
 ### Initial Problem
