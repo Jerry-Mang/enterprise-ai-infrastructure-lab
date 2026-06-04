@@ -18,6 +18,20 @@ The objective was to gain hands-on experience with enterprise virtualization, se
 
 ---
 
+## Environment
+
+### Physical Host
+- Dell T110 II
+- Intel Xeon E3-1220 v2
+- VMware ESXi
+
+### Virtual Machines
+- Windows Server 2019
+- Windows 10 IT Workstation
+
+## Virtual Network Design
+
+
 ```text
 Internet
     |
@@ -42,21 +56,6 @@ Default Gateway:
 
 172.16.10.1
 ```
-
----
-
-## Environment
-
-### Physical Host
-- Dell T110 II
-- Intel Xeon E3-1220 v2
-- VMware ESXi
-
-### Virtual Machines
-- Windows Server 2019
-- Windows 10 IT Workstation
-
-## Virtual Network Design
 
 ---
 
