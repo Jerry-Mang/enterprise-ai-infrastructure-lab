@@ -1,0 +1,47 @@
+### Project Scope
+
+VM Deployment
+- Windows Server 2019 deployment
+- Windows 10 deployment
+- Virtual networking configuration
+
+---
+
+### Active Directory Integration
+
+- Domain join
+- User authentication
+- Domain login testing
+
+HQ\rex.finance
+
+---
+
+### Storage Expansion
+
+Windows 10 VM
+130GB
+↓
+500GB
+
+- ESXi datastore expansion
+- Virtual disk resize
+- Windows Disk Management extension
+
+---
+
+User Administration
+
+- Create users
+- Reset passwords
+- Domain login testing
+
+---
+
+### Lessons Learned
+
+- VM resource planning
+- Storage management
+- Windows domain integration
+- Enterprise virtualization concepts
+
