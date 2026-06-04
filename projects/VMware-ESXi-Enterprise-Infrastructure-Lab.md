@@ -72,10 +72,8 @@ WDC WD5003ABYX
 Capacity: 465.76 GB
 Status: Normal
 
+![ New 500GB](../images/datastore.png)
 Figure 1 – New 500GB disk detected by ESXi host.
-
-(insert datastore.png)
-
 
 ## Skills Demonstrated
 
