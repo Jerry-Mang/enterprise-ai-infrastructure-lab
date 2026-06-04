@@ -97,7 +97,7 @@ Capacity: 465.76 GB
 
 ESXi displayed the final datastore layout before creation.
 
-![ New finish](../finish.png)
+![ New finish](../images/finish.png)
 Figure 2 – VMFS datastore creation summary.
 
 Step 4 – Expand Datastore Capacity
@@ -110,7 +110,7 @@ Storage
 
 This allowed the datastore to utilise the full available disk capacity.
 
-![ New scuess finish](../finish_scuess.png)
+![ New finish scuess](../images/finish_scuess.png)
 Figure 3 – VMFS datastore expansion wizard.
 
 Results
