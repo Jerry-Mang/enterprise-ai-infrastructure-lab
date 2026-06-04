@@ -8,16 +8,14 @@ https://jerry-mang.github.io/enterprise-ai-infrastructure-lab/
 
 ## Featured Projects
 
-| Project                              | Technologies                                    | Status      |
-| ------------------------------------ | ----------------------------------------------- | ----------- |
-| 172.16.10 Enterprise Testing Network | Cisco 1941, Catalyst 3560, VLANs, NAT, ESXi     | Complete    |
-| Remote Infrastructure Access Lab     | Tailscale VPN, ESXi, Windows Server, Cisco      | Complete    |
-| Remote Station Trunk Troubleshooting | 802.1Q Trunking, Ruijie ES226, Fault Isolation  | Complete    |
-| Active Directory Enterprise Lab      | Windows Server 2019, DNS, DHCP, Domain Services | In Progress |
+| Project                              | Technologies                                                                | Status      | Difficulty    |
+| ------------------------------------ | --------------------------------------------------------------------------- | ----------- |---------------|
+| 172.16.10 Enterprise Testing Network | Cisco 1941, Catalyst 3560, VLANs, Router-on-a-Stick, NAT/PAT, VMware ESXi   | Complete    | Intermediate  |
+| Remote Infrastructure Access Lab     | Tailscale VPN, VMware ESXi, Windows Server 2019, Secure Remote Access       | Complete    | Intermediate  |
+| Remote Station Trunk Troubleshooting | 802.1Q Trunking, VLAN Troubleshooting, Ruijie ES226, Root Cause Analysis    | Complete    | Intermediate  |
+| Windows Server Active Directory Lab  | Windows Server 2019, DNS, DHCP, Domain Services                             | In Progress | Intermediate  |
 
 ---
-
-## Skills Demonstrated
 
 ### Networking
 
