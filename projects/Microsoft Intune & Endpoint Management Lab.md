@@ -1,4 +1,4 @@
-# Project 7 - Microsoft Intune & Cloud Endpoint Management Lab
+# Microsoft Intune & Cloud Endpoint Management Lab
 
 ## Overview
 
