@@ -59,19 +59,26 @@ The lab environment was integrated with an existing on-premises Active Directory
 
 Configured Microsoft 365 tenant environment and explored Microsoft Entra ID administration.
 
+
+Figure 1. Tenant setup and Microsoft 365 Business Premium activation.
+
 ### Task 2 – User and Group Management
 
 Created and managed cloud users and security groups.
 
+![cloud user](../images/Project_7_cloud_01_main.png)
+Figure 2. Microsoft 365 cloud user administration and license management.
+
+Successfully created and managed cloud identities within Microsoft 365 Business Premium.
+
 Activities included:
 
-* User creation
-* Group membership management
-* Password management
-* User administration
+* User account creation
+* License assignment and management
+* Password administration
+* Cloud identity management
+* Microsoft 365 user administration
 
-
-![cloud user](../images/Project_7_cloud_01_main.png)
 
 
 ### Task 3 – Device Enrolment
