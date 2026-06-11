@@ -71,7 +71,7 @@ Activities included:
 * User administration
 
 
-![cloud user](../images/Project_7_cloud_01.png)
+![cloud user](../images/Project_7_cloud_01_Copy.png)
 
 
 ### Task 3 – Device Enrolment
