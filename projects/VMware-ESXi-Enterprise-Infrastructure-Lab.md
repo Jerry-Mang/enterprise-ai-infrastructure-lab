@@ -17,23 +17,6 @@ The lab was built to simulate a small enterprise environment, including:
 The objective was to gain hands-on experience with enterprise virtualization, server administration and infrastructure management.
 
 
-## Architecture Diagram
-
-```text
-Dell T110 II
-     │
-VMware ESXi
-     │
- ├─ DC1 (Windows Server 2019)
- │      HQ.lab.org
- │
- └─ WIN10-IT
-        │
-        ├─ Domain Joined
-        ├─ Workplace Joined
-        └─ Intune Enrolled
-```
-
 ## Environment
 
 ### Physical Host
