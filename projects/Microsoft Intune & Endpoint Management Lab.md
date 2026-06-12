@@ -66,7 +66,7 @@ Figure 1. Tenant setup and Microsoft 365 Business Premium activation.
 
 Created and managed cloud users and security groups.
 
-![cloud user](../images/Project_7_cloud_01_main.png)
+![cloud user](../images/project7-intune/Project_7_cloud_01_main.png)
 Figure 2. Microsoft 365 cloud user administration and license management.
 
 Successfully created and managed cloud identities within Microsoft 365 Business Premium.
