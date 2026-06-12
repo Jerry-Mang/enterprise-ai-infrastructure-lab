@@ -79,14 +79,13 @@ Activities included:
 * Cloud identity management
 * Microsoft 365 user administration
   
-
-
+![cloud user](../images/project7-intune/Project_7_user_created).
 Figure 3. Successfully created a Microsoft 365 cloud user account and assigned a Microsoft 365 Business Premium licence.
 
-
+![cloud user](../images/project7-intune/Project_7_first_login).
 Figure 4. First sign-in verification for the newly created cloud user account.
 
-
+![cloud user](../images/project7-intune/Project_7_user_login_success).
 Figure 5. Successfully authenticated to Microsoft 365 services using the newly created cloud user account.
 
 ### Task 3 – Device Enrolment
