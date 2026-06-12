@@ -17,7 +17,7 @@ The lab was built to simulate a small enterprise environment, including:
 The objective was to gain hands-on experience with enterprise virtualization, server administration and infrastructure management.
 
 
-##Architecture Diagram
+## Architecture Diagram
 
 ```text
 Dell T110 II
@@ -33,7 +33,6 @@ VMware ESXi
         ├─ Workplace Joined
         └─ Intune Enrolled
 ```
----
 
 ## Environment
 
