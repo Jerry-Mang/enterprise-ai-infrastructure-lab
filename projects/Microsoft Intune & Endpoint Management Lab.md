@@ -129,13 +129,34 @@ Figure 3.3. Device successfully enrolled into Microsoft Intune and reporting a c
 
 ### Task 4 – Compliance Policies
 
-Created and assigned device compliance policies.
+Created and assigned a Windows 10/11 compliance policy in Microsoft Intune.
+
+Configured policy requirements including:
+
+- Password complexity controls
+- Minimum password length
+- Device security validation settings
+
+Assigned policy to:
+
+- All Users
 
 Validated:
 
-* Compliance status reporting
-* Device evaluation
-* Policy assignment
+- Policy creation
+- Policy assignment
+- Compliance policy deployment workflow
+- Compliance monitoring configuration
+
+![cloud user](../images/project7-intune/Project_7_device_enrolled_success.png)
+Figure 4.1. Creating a Windows 10/11 compliance policy in Microsoft Intune.
+
+![cloud user](../images/project7-intune/Project_7_device_enrolled_success.png)
+Figure 4.2. Configuring compliance requirements including password security settings.
+
+![cloud user](../images/project7-intune/Project_7_device_enrolled_success.png)
+Figure 4.3. Reviewing and assigning the compliance policy to all users.
+
 
 ### Task 5 – Configuration Profiles
 
