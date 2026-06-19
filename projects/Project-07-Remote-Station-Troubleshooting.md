@@ -6,7 +6,9 @@ This project documents the deployment of a remote CCTV testing station connected
 
 The objective was to extend VLAN connectivity from the main rack to a secondary workstation used for CCTV, NVR and IP camera testing.
 
-Network Desgin
+---
+
+###Network Desgin
 
 Main Lab Rack
 
@@ -30,8 +32,9 @@ VLAN Structure
 | VLAN50 | Management Network | 172.16.50.0/24 |
 | VLAN60 | Guest Network      | Reserved       |
 
+---
 
-Objective
+### Objective
 To provide a dedicated remote workstation capable of:
 
 - IP Camera testing
@@ -42,7 +45,9 @@ To provide a dedicated remote workstation capable of:
 
 while maintaining VLAN separation across the lab.
 
-Cisco Switch Configuration:
+---
+
+### Cisco Switch Configuration:
 SW1 Fa0/14
 
 interface FastEthernet0/14
@@ -123,10 +128,10 @@ show interfaces trunk
 show interfaces switchport
 show mac address-table
 
-Document findings
+### Document findings
 Maintaining documentation significantly reduces troubleshooting time and provides evidence of practical networking experience.
 
-Skills Demonstrated
+### Skills Demonstrated
 - VLAN deployment
 - 802.1Q trunking
 - Cisco Catalyst administration
