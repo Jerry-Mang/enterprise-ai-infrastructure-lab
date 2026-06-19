@@ -52,6 +52,7 @@ while maintaining VLAN separation across the lab.
 ### Cisco Switch Configuration:
 SW1 Fa0/14
 
+```text
 interface FastEthernet0/14
 description Uplink-to-Remote-Station
 switchport trunk encapsulation dot1q
@@ -59,21 +60,26 @@ switchport trunk native vlan 50
 switchport trunk allowed vlan 10,20,50,60
 switchport mode trunk
 spanning-tree portfast trunk
+```
 
 Verification:
 
+```text
 show interfaces trunk
 show interfaces f0/14 switchport
+```
 
 Result:
 
+```text
 Status: trunking
 Native VLAN: 50
 Allowed VLANs: 10,20,50,60
+```
 
 ---
 
-Problem Encountered
+### Problem Encountered
 
 The remote station initially failed to connect.
 
@@ -99,6 +105,54 @@ Results:
 
 Fa0/18 -> No link
 Fa0/22 -> No link
+
+No link LEDs were present.
+
+---
+
+Step 2 – Alternative Port Testing
+
+Additional ports were tested.
+
+Fa0/13 -> Operational
+Fa0/14 -> Operational
+
+Fa0/14 successfully established a trunk connection.
+
+---
+
+Step 3 – Trunk Verification
+
+Executed:
+
+show interfaces trunk
+
+Confirmed:
+
+Fa0/14 trunking successfully
+
+---
+
+Step 4 – ES226 Recovery
+
+The ES226 switch was restored and successfully connected to Ruijie Cloud.
+
+Management information:
+
+IP Address: 172.16.50.21
+Gateway: 172.16.50.1
+Cloud Status: Connected
+
+---
+
+Root Cause
+
+The issue was traced to faulty or non-functional switch ports on the Cisco Catalyst 3560.
+
+Affected ports:
+
+Fa0/18
+Fa0/22
 
 These ports failed Layer 1 connectivity tests.
 
@@ -126,17 +180,23 @@ verify:
 - Port status
 - Physical cabling
 
-Use show commands
+---
 
-### Useful Cisco commands:
+### Use show commands
 
+Useful Cisco commands:
+
+```text
 show interfaces status
 show interfaces trunk
 show interfaces switchport
 show mac address-table
+```
 
 ### Document findings
 Maintaining documentation significantly reduces troubleshooting time and provides evidence of practical networking experience.
+
+---
 
 ### Skills Demonstrated
 - VLAN deployment
@@ -147,6 +207,10 @@ Maintaining documentation significantly reduces troubleshooting time and provide
 - Network fault isolation
 - CCTV infrastructure support
 - Structured troubleshooting methodology
+
+---
+
+Outcome: Successfully restored connectivity to the remote CCTV testing station and re-established cloud management connectivity for the ES226 PoE switch.
 
 Outcome: Successfully restored connectivity to the remote CCTV testing station and re-established cloud management connectivity for the ES226 PoE switch.
 
