@@ -153,6 +153,10 @@ Repeater 2
 
 The deployment successfully extended network coverage without requiring Ethernet cabling between devices.
 
+![ruijie EW1200R](../images/project08-ew1200r-mesh/Project_08_04.png)
+
+Figure 3 – Mesh repeaters successfully joined the root router using the built-in Mesh Sync function.
+
 ---
 
 #### Step 4 - Client Connectivitu Testing
