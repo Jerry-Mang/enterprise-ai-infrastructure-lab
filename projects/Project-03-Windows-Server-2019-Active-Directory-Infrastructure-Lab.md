@@ -109,13 +109,17 @@ Performed:
 
 Created departmental security groups:
 
+```text
 HR-Users
 Finance-Users
 IT-Users
+```
 
 Implemented group-based access control for shared resources.
 
-Domain Join Operations
+---
+
+### Domain Join Operations
 
 Successfully joined Windows 10 client workstations to Active Directory.
 
@@ -126,18 +130,18 @@ FIN01
 
 Verified:
 
-Domain authentication
-Domain login
-Computer object creation in Active Directory
-DNS registration
+- Domain authentication
+- Domain login
+- Computer object creation in Active Directory
+- DNS registration
 
 Example domain login:
 
 ```text
 HQ\rex.finance
-Group Policy Management
 ```
 
+### Group Policy Management
 
 Implemented Group Policy Objects (GPOs) to simulate enterprise endpoint management.
 
@@ -150,19 +154,25 @@ Automatically mapped departmental network drives:
 ```text
 H: HR Drive
 F: Finance Drive
-Endpoint Restrictions
 ```
+
+### Endpoint Restrictions
 
 Applied security policies including:
 
-Control Panel restrictions
-User environment lockdown
-Centralised desktop management
+- Control Panel restrictions
+- User environment lockdown
+- Centralised desktop management
 
 Verified successful policy deployment using:
 
+```text
 gpupdate /force
-File Services
+```
+
+---
+
+### File Services
 
 Created departmental shared folders:
 
@@ -174,9 +184,9 @@ C:\Shares\IT
 
 Configured:
 
-Share Permissions
-NTFS Permissions
-Security Group Access Control
+- Share Permissions
+- NTFS Permissions
+- Security Group Access Control
 
 Validated user access based on group membership.
 
