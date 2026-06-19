@@ -8,7 +8,7 @@ The objective was to extend VLAN connectivity from the main rack to a secondary 
 
 ---
 
-###Network Desgin
+### Network Desgin
 
 Main Lab Rack
 
