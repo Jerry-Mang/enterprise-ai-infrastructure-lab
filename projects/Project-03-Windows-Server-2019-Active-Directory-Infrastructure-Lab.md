@@ -126,8 +126,11 @@ DNS registration
 
 Example domain login:
 
+```text
 HQ\rex.finance
 Group Policy Management
+```
+
 
 Implemented Group Policy Objects (GPOs) to simulate enterprise endpoint management.
 
@@ -137,9 +140,11 @@ Drive Mapping
 
 Automatically mapped departmental network drives:
 
+```text
 H: HR Drive
 F: Finance Drive
 Endpoint Restrictions
+```
 
 Applied security policies including:
 
@@ -154,9 +159,11 @@ File Services
 
 Created departmental shared folders:
 
+```text
 C:\Shares\HR
 C:\Shares\Finance
 C:\Shares\IT
+```
 
 Configured:
 
@@ -185,6 +192,9 @@ Validated user access based on group membership.
 - Authentication
 - Endpoint Management
 - Windows 10 Enterprise Administration
-- Outcome
+
+---
+
+### Outcome
 
 Successfully deployed and managed a functional enterprise-style Active Directory environment supporting centralised authentication, departmental access control, Group Policy management, and domain-joined Windows client devices.
