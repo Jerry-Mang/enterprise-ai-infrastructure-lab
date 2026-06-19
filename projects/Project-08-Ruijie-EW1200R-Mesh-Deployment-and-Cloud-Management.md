@@ -160,7 +160,7 @@ Repeater
 
 No Ethernet cabling required.
 
-Cloud Management
+#### Cloud Management
 
 All devices synchronized successfully with Ruijie Cloud.
 
@@ -168,7 +168,7 @@ Web Tunnel Remote Access
 
 Verified remote access to all mesh devices through Ruijie Cloud without port forwarding.
 
-Client Connectivity
+#### Client Connectivity
 
 Successfully connected:
 
