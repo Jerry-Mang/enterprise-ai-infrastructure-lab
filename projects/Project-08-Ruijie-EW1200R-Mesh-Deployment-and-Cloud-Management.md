@@ -95,7 +95,7 @@ IP: 172.16.21.70
 
 #### Step 1 - Root Router Deployment
 
-The primary EW1200R was connected to the existing network through the RG-ES226GC-P switch.
+The first EW1200R was deployed as the root router and connected to the existing CCTV network through VLAN 20.
 
 Connection:
 
@@ -109,7 +109,11 @@ WAN Address:
 
 172.16.20.80
 
-The device was successfully onboarded into Ruijie Cloud.
+The device operated in Router Mode and provided DHCP and NAT services for the wireless mesh network.
+
+![ruijie EW1200R](../images/project08-ew1200r-mesh/Project_08_06.png)
+
+Figure 2 – Root EW1200R operating in Router Mode with WAN connectivity provided from the existing VLAN 20 network.
 
 ---
 
@@ -131,7 +135,7 @@ Online
 
 ![ruijie EW1200R](../images/project08-ew1200r-mesh/project_08_02.png)
 
-Figure 2 – All three EW1200R devices successfully synchronized and managed through Ruijie Cloud.
+Figure 3 – All three EW1200R devices successfully synchronized and managed through Ruijie Cloud.
 
 ---
 
@@ -155,7 +159,7 @@ The deployment successfully extended network coverage without requiring Ethernet
 
 ![ruijie EW1200R](../images/project08-ew1200r-mesh/Project_08_04.png)
 
-Figure 3 – Mesh repeaters successfully joined the root router using the built-in Mesh Sync function.
+Figure 4 – Mesh repeaters successfully joined the root router using the built-in Mesh Sync function.
 
 ---
 
@@ -178,7 +182,7 @@ Stable cloud connectivity
 
 ![ruijie EW1200R](../images/project08-ew1200r-mesh/Project_08_05.png)
 
-Figure 4 – EZVIZ wireless camera connected through the EW1200R mesh network and received an IP address via DHCP.
+Figure 5 – EZVIZ wireless camera connected through the EW1200R mesh network and received an IP address via DHCP.
 
 ---
 
@@ -227,7 +231,7 @@ This demonstrated built-in Layer 3 conflict detection and automatic network corr
 
 ![ruijie EW1200R](../images/project08-ew1200r-mesh/Project_08_03.png)
 
-Figure 5 – Automatic subnet conflict detection. ReyeeOS changed the LAN subnet from 172.16.20.0/24 to 172.16.21.0/24 to avoid a WAN/LAN addressing conflict.
+Figure 6 – Automatic subnet conflict detection. ReyeeOS changed the LAN subnet from 172.16.20.0/24 to 172.16.21.0/24 to avoid a WAN/LAN addressing conflict.
 
 ---
 
