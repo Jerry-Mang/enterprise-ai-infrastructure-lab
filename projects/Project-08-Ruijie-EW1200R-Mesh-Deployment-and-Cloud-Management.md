@@ -48,6 +48,8 @@ The deployment was fully managed through Ruijie Cloud and included remote device
 
 ### Physical Topology
 
+
+![ruijie EW1200R](../images/project08-ew1200r-mesh/project_8_01.jpeg)
 ---
 
 ### Configuration
