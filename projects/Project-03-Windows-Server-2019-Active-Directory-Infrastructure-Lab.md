@@ -166,22 +166,25 @@ Security Group Access Control
 
 Validated user access based on group membership.
 
-Skills Demonstrated
-VMware ESXi
-Windows Server 2019
-Active Directory
-DNS
-DHCP
-Domain Services
-User Administration
-Security Groups
-Group Policy
-Drive Mapping
-File Sharing
-NTFS Permissions
-Authentication
-Endpoint Management
-Windows 10 Enterprise Administration
-Outcome
+---
+
+### Skills Demonstrated
+
+- VMware ESXi
+- Windows Server 2019
+- Active Directory
+- DNS
+- DHCP
+- Domain Services
+- User Administration
+- Security Groups
+- Group Policy
+- Drive Mapping
+- File Sharing
+- NTFS Permissions
+- Authentication
+- Endpoint Management
+- Windows 10 Enterprise Administration
+- Outcome
 
 Successfully deployed and managed a functional enterprise-style Active Directory environment supporting centralised authentication, departmental access control, Group Policy management, and domain-joined Windows client devices.
