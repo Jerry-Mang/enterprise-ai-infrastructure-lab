@@ -18,7 +18,7 @@ Client Devices
 
 Domain
 - hq.lab.org
-- 
+
 ---
 
 ### Core Services Implemented
@@ -35,6 +35,8 @@ Installed and configured:
 Domain:
 
 hq.lab.org
+
+---
 
 ### DNS Services
 
@@ -61,6 +63,8 @@ Implemented:
 - Client lease validation
 
 Verified client devices successfully obtained network configuration automatically.
+
+---
 
 Organisational Unit Structure
 
@@ -93,12 +97,15 @@ HQ\rex.finance
 
 Performed:
 
-User account creation
-Password assignment
-Account management
-Password reset procedures
-User authentication testing
-Security Groups
+- User account creation
+- Password assignment
+- Account management
+- Password reset procedures
+- User authentication testing
+
+---
+
+### Security Groups
 
 Created departmental security groups:
 
