@@ -1,8 +1,11 @@
-Objectives
+## Objectives
 
 Deploy a multi-node wireless mesh network using Ruijie EW1200R routers and manage the deployment remotely through Ruijie Cloud.
 
-Technologies Used
+The project was designed to simulate a small branch office wireless deployment where a root router provides network services and additional wireless repeaters extend Wi-Fi coverage to remote areas without Ethernet cabling.
+
+
+### Technologies Used
 
 Wireless Mesh
 Router Mode
@@ -13,17 +16,19 @@ Web Tunnel
 Remote Access
 Wireless Backhaul
 
-Equipment
+### Equipment
 
-Device	          Model	
+| Device           | Model                           | 
+| --------         | --------------------------------| 
+| Root Router      | EW1200R                         | 
+| Repeater 1       | EW1200R                         | 
+| Repeater 2       | EW1200R                         |
+| Access Switch    | RG-ES226GC-P (Existing Station) |
+| Wireless Camera	 | EZVIZ Camera CS-CV310           | 
 
-Root Router	      EW1200R	
-Repeater 1	      EW1200R	
-Repeater 2	      EW1200R	
-Access Switch	    RG-ES226GC-P	Existing Lab
-Wireless Camera	  EZVIZ Camera CS-CV310
+---
 
-Physical Topology
+### Physical Topology
 
 Wireless Mesh
 
@@ -77,7 +82,8 @@ LAN = 172.16.21.0/24
 
 to maintain proper NAT functionality.
 
-Skills Demonstrated
+### Skills Demonstrated
+
 Wireless Mesh Deployment
 Wireless Repeater Configuration
 DHCP Services
