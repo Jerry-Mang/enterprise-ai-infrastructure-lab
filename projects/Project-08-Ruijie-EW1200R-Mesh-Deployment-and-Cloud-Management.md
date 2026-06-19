@@ -50,81 +50,166 @@ The deployment was fully managed through Ruijie Cloud and included remote device
 
 
 ![ruijie EW1200R](../images/project08-ew1200r-mesh/project_8_01.png)
----
-
-### Configuration
+Figure 1 – EW1200R Wireless Mesh Topology showing one Root Router and two synchronized Mesh Repeaters managed through Ruijie Cloud.
 
 ---
 
-### Wireless Mesh
+### Network Topology
 
-Both additional EW1200R units were powered on and automatically joined the root router as repeaters.
+```test
+Internet
 
-Cloud status:
+↓
+
+EW1200R Root Router
+
+WAN: 172.16.20.80
+
+LAN: 172.16.21.180
+
+↓
+
+Wireless Mesh Backhaul
+
+↓
+
+EW1200R Repeater 1
+
+IP: 172.16.21.51
+
+↓
+
+EW1200R Repeater 2
+
+IP: 172.16.21.101
+
+↓
+
+EZVIZ Wireless Camera
+
+IP: 172.16.21.70
+```
+
+### Deployment Procedure
+
+#### Step 1 - Root Router Deployment
+
+The primary EW1200R was connected to the existing network through the RG-ES226GC-P switch.
+
+Connection:
+
+RG-ES226GC-P VLAN 20
+
+↓
+
+EW1200R Root Router WAN Port
+
+WAN Address:
+
+172.16.20.80
+
+The device was successfully onboarded into Ruijie Cloud.
+
+---
+
+#### Step 2 - Mesh Pairing
+
+Two additional EW1200R units were powered on and joined the mesh network.
+
+The pairing process was completed using the physical Mesh/Sync button on both devices.
+
+No manual wireless bridge or WDS configuration was required.
+
+After synchronization, both repeaters automatically appeared within Ruijie Cloud under the Root Router.
+
+Cloud Status:
 
 Synced
-Online
 
-No manual WDS configuration was required.
+Online
 
 ---
 
-### Client Testing
+#### Step 3 - Wireless Backhaul Validation
 
-Successfully connected:
+The repeaters established wireless backhaul links to the Root Router.
 
-```text
-EZVIZ Wireless Camera
-```
+Topology:
 
-Assigned IP:
+Root Router
 
-```text
+↓
+
+Repeater 1
+
+↓
+
+Repeater 2
+
+The deployment successfully extended network coverage without requiring Ethernet cabling between devices.
+
+---
+
+#### Step 4 - Client Connectivitu Testing
+
+An EZVIZ wireless camera was connected to the mesh network.
+
+Assigned Address:
+
 172.16.21.70
-```
+
+Validated:
+
+Wireless association
+DHCP address assignment
+Internet connectivity
+Mesh backhaul communication
+Stable cloud connectivity
+
+---
+
+#### Step 5 - Web Tunnel Remote Management
+
+Ruijie Cloud successfully provided remote management access to all EW1200R devices.
 
 Verified:
 
-- Wireless association
-- DHCP assignment
-- Internet access
-- Mesh backhaul operation
+Device monitoring
+Configuration management
+Status monitoring
+Web Tunnel remote access
+
+No port forwarding was required.
 
 ---
 
 ### Findings
 
-Automatic LAN Conflict Detection
+#### Automatic LAN Conflict Detection
 
-Attempted LAN configuration:
+An attempt was made to configure the LAN address as:
 
-```text
 172.16.20.180
-```
 
-System automatically changed to:
+The system automatically changed the LAN address to:
 
-```text
 172.16.21.180
-```
 
 Reason:
 
 The WAN interface was already operating on:
 
-```text
 172.16.20.0/24
-```
 
-Using the same subnet on both WAN and LAN would create routing conflicts.
+Using the same subnet on both WAN and LAN interfaces would create a routing conflict.
 
-ReyeeOS therefore automatically created:
+ReyeeOS automatically generated:
 
-```text
-LAN = 172.16.21.0/24
-```
+172.16.21.0/24
 
-to maintain proper NAT functionality.
+to maintain proper NAT and routing functionality.
+
+This demonstrated built-in Layer 3 conflict detection and automatic network correction features.
 
 ---
 
@@ -166,7 +251,7 @@ No Ethernet cabling required.
 
 All devices synchronized successfully with Ruijie Cloud.
 
-Web Tunnel Remote Access
+#### Web Tunnel Remote Access
 
 Verified remote access to all mesh devices through Ruijie Cloud without port forwarding.
 
