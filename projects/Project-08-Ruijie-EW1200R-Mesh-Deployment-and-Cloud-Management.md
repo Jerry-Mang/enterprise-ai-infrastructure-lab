@@ -216,6 +216,10 @@ to maintain proper NAT and routing functionality.
 
 This demonstrated built-in Layer 3 conflict detection and automatic network correction features.
 
+![ruijie EW1200R](../images/project08-ew1200r-mesh/project_08_03.png)
+
+Figure 3 – Automatic subnet conflict detection. ReyeeOS changed the LAN subnet from 172.16.20.0/24 to 172.16.21.0/24 to avoid a WAN/LAN addressing conflict.
+
 ---
 
 ### Key Features Tested
