@@ -1,21 +1,36 @@
-## Objectives
+## Overview
 
-Deploy a multi-node wireless mesh network using Ruijie EW1200R routers and manage the deployment remotely through Ruijie Cloud.
+This project documents the deployment and testing of a Ruijie EW1200R wireless mesh network environment.
 
-The project was designed to simulate a small branch office wireless deployment where a root router provides network services and additional wireless repeaters extend Wi-Fi coverage to remote areas without Ethernet cabling.
+The objective was to simulate a small branch office or remote site deployment where a root router provides Internet connectivity and additional wireless repeaters extend network coverage without requiring Ethernet cabling.
+
+The deployment was fully managed through Ruijie Cloud and included remote device management, mesh synchronization, NAT services, DHCP services, client onboarding and wireless camera connectivity testing.
+
+---
+
+### Objectives
+
+- Deploy a multi-node wireless mesh network using Ruijie EW1200R routers
+- Validate automatic mesh pairing functionality
+- Test wireless backhaul operation
+- Verify DHCP and NAT services
+- Test remote cloud management capabilities
+- Validate Web Tunnel remote access functionality
+- Connect and test wireless IP camera operation through the mesh network
 
 ---
 
 ### Technologies Used
 
-Wireless Mesh
-Router Mode
-DHCP
-NAT
-Cloud Management
-Web Tunnel
-Remote Access
-Wireless Backhaul
+- Ruijie ER1200R
+- ReyeeOS
+- Wireless Mesh Networking
+- NAT
+- DHCP
+- Wireless Backhaul
+- Ruijie Cloud
+- Web Tunnel Remote Management
+- Wireless Client Provisioning
 
 ---
 
