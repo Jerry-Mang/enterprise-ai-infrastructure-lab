@@ -175,6 +175,11 @@ Internet connectivity
 Mesh backhaul communication
 Stable cloud connectivity
 
+
+![ruijie EW1200R](../images/project08-ew1200r-mesh/Project_08_05.png)
+
+Figure 4 – EZVIZ wireless camera connected through the EW1200R mesh network and received an IP address via DHCP.
+
 ---
 
 #### Step 5 - Web Tunnel Remote Management
@@ -222,7 +227,7 @@ This demonstrated built-in Layer 3 conflict detection and automatic network corr
 
 ![ruijie EW1200R](../images/project08-ew1200r-mesh/Project_08_03.png)
 
-Figure 3 – Automatic subnet conflict detection. ReyeeOS changed the LAN subnet from 172.16.20.0/24 to 172.16.21.0/24 to avoid a WAN/LAN addressing conflict.
+Figure 5 – Automatic subnet conflict detection. ReyeeOS changed the LAN subnet from 172.16.20.0/24 to 172.16.21.0/24 to avoid a WAN/LAN addressing conflict.
 
 ---
 
