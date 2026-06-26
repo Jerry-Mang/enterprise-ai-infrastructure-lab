@@ -40,30 +40,34 @@ Building infrastructure knowledge through real projects, practical documentation
 
 ## Solutions Portfolio
 
-This section will develop into a practical library of infrastructure and networking solution designs.
+This section is dedicated to professional solution design case studies based on enterprise networking and infrastructure scenarios.
 
-Planned solution case studies:
+Current solution areas include:
 
-* Small Office Network Design
-* Warehouse Wi-Fi Solution
-* Guest Wi-Fi with Captive Portal
-* CCTV Network Segmentation
-* VLAN Design for SMB Environments
-* Ruijie / Reyee Cloud-Managed Networking
-* Hybrid Infrastructure Lab
-* Microsoft 365 and On-Prem Integration
+- Small Office Network
+- Warehouse Networking
+- Enterprise CCTV
+- Guest Wi-Fi
+- VLAN Design
+- Hybrid Infrastructure
+- Microsoft 365 Integration
+- Ruijie / Reyee Wireless Solutions
 
-Each solution will include:
+Each solution portfolio will include:
 
-* Customer Requirements
-* Network Topology
-* VLAN Design
-* Hardware Selection
-* BOM Structure
-* Technical Reasoning
-* Risk Considerations
-* Documentation Notes
+- Customer Requirements
+- Site Survey Summary
+- Network Topology
+- VLAN Design
+- Wireless Heatmap
+- Hardware Selection
+- Bill of Materials (BOM)
+- Technical Proposal
+- Risk Assessment
+- Design Considerations
 
+**Note:** All solution designs are created for technical learning and professional portfolio purposes. Real customer projects will be anonymised where appropriate.
+  
 ---
 
 ## Skills Demonstrated
