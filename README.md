@@ -19,15 +19,15 @@ Current areas of study and development:
 - Enterprise Networking
 - Technical Support & Pre-Sales Engineering
 - Solution Design
-- Ruijie / Reyee Wireless Solutions
 - Microsoft Hybrid Infrastructure
-- VMware Virtualization
+- VMware ESXi
+- Ruijie / Reyee Wireless Solutions
 - Technical Documentation
 - AI-assisted Infrastructure Operations
   
 ---
 
-[🌐 Live Project Site:](https://github.com/Jerry-Mang/jerry-infrastructure-lab)
+[🌐 Official Project Repository:](https://github.com/Jerry-Mang/jerry-infrastructure-lab)
 
 
 ## Featured Projects
@@ -183,7 +183,9 @@ ESXi Host:
 
 ### Mission
 
-To transform enterprise infrastructure knowledge into practical, reusable resources that help engineers design, deploy and troubleshoot modern IT environments.
+To build practical enterprise infrastructure knowledge through real-world projects, solution design, technical documentation and continuous learning.
+
+Every project is designed to strengthen technical skills while creating reusable knowledge assets for long-term professional growth.
 
 ---
 
@@ -267,14 +269,12 @@ Skills Demonstrated:
 
 ---
 
-# Future Development
+Building.
 
-Planned future areas include:
+Documenting.
 
-- Microsoft 365 integration
-- Hybrid identity concepts
-- AI portal deployment
-- Infrastructure monitoring
-- Automation workflows
-- Enterprise AI integration
-- AWS fundamentals
+Sharing.
+
+Continuously Improving.
+
+Jerry Infrastructure Lab is a long-term professional portfolio documenting practical enterprise infrastructure, networking and solution design experience.
