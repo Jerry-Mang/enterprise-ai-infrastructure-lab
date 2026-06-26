@@ -226,9 +226,6 @@ Skills Demonstrated:
   
 [🚀 Read Full Case Study](projects/Project-01-Cisco-Network-Foundation-Lab.md)
 
-projects/Project-01-Cisco-Network-Foundation-Lab.md
-
-
 ---
 
 ## 2. Remote Infrastructure Access Lab
