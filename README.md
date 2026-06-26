@@ -30,6 +30,8 @@ https://jerry-mang.github.io/enterprise-ai-infrastructure-lab/
 
 https://github.com/Jerry-Mang/jerry-infrastructure-lab/
 
+[🚀 Read Full Case Study](projects/Project-01-Cisco-Network-Foundation-Lab.md)
+
 
 
 ## Featured Projects
