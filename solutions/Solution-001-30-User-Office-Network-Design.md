@@ -36,14 +36,14 @@ Provide a brief overview of the proposed solution, project objectives and expect
 
 Requirements:
 
-• Reliable Wi-Fi
-• Guest Wi-Fi
-• 30 CCTV Cameras
-• Face Recognition Time Attendance
-• Warehouse Wi-Fi
-• 10 Warehouse PCs
-• Cloud Management
-• Future Expansion
+* Reliable Wi-Fi
+* Guest Wi-Fi
+* 30 CCTV Cameras
+* Face Recognition Time Attendance
+* Warehouse Wi-Fi
+* 10 Warehouse PCs
+* Cloud Management
+* Future Expansion
 
 ---
 
