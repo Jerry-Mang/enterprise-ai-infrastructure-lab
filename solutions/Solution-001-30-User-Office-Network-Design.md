@@ -24,21 +24,15 @@ Provide a brief overview of the proposed solution, project objectives and expect
 
 ## Customer Background
 
-ABC Manufacturing Ltd
+### ABC Manufacturing Ltd
 
-Industry: Manufacturing
+- Industry: Manufacturing
 
-Office: 
+- Office: 30 Staff
 
-30 Staff
+- Warehouse: 1
 
-Warehouse:
-
-1
-
-Internet:
-
-1 Gbps Fibre
+- Internet: 1 Gbps Fibre
 
 Requirements:
 
