@@ -246,20 +246,102 @@ Successfully deployed a functional enterprise testing environment supporting Cis
 
 ---
 
-## Project 02 – Remote Infrastructure Access Lab
+## Project 02 – VMware ESXi Enterprise Infrastructure Lab
 
 ### Overview
 
-Designed and deployed a secure remote access solution to manage enterprise infrastructure from external networks using VPN technologies.
+Designed and deployed a VMware ESXi enterprise infrastructure to support virtualised networking, Windows Server services and future hybrid infrastructure testing within a small enterprise environment.
 
 ---
 
 ### Technologies
 
 - VMware ESXi
+- Dell PowerEdge Server
+- Windows Server 2019
+- Windows 10
+- Virtual Networking
+- VMware Datastores
+- Virtual Machines
+
+---
+
+### Skills Demonstrated
+
+- Enterprise Virtualisation
+- VM Deployment
+- Resource Allocation
+- Virtual Networking
+- Infrastructure Administration
+- Snapshot Management
+
+---
+
+### Outcome
+
+Successfully built a stable virtual infrastructure platform supporting Windows Server, Active Directory and enterprise networking labs, providing the foundation for future hybrid cloud and Microsoft 365 projects.
+
+---
+
+[🚀 Read Full Case Study](projects/Project-04-Remote-Infrastructure-Access-Lab.md)
+
+---
+
+## Project 03 – Windows Server 2019 Active Directory Infrastructure Lab
+
+### Overview
+
+Built a Windows Server enterprise environment providing Active Directory Domain Services, DNS and DHCP for a simulated business network integrated with VMware ESXi.
+
+---
+
+### Technologies
+
+- Windows Server 2019
+- Active Directory
+- DNS
+- DHCP
+- Group Policy
+- Windows 10
+- VMware ESXi
+
+---
+
+### Skills Demonstrated
+
+- Active Directory Administration
+- DNS Configuration
+- DHCP Configuration
+- Domain Join
+- User & Group Management
+- Group Policy Fundamentals
+
+---
+
+### Outcome
+
+Successfully deployed a fully functional Active Directory environment capable of supporting enterprise user management, authentication and network services.
+
+---
+  
+[🚀 Read Full Case Study](projects/Project-03-Windows-Server-2019-Active-Directory-Infrastructure-Lab.md)
+
+---
+
+## Project 04 – Remote Infrastructure Access Lab
+
+### Overview
+
+Implemented a secure remote access solution allowing enterprise infrastructure to be managed remotely using VPN technology and secure management protocols.
+
+---
+
+### Technologies
+
+- Tailscale VPN
+- VMware ESXi
 - Windows Server 2019
 - Cisco Infrastructure
-- Tailscale VPN
 - SSH
 
 ---
@@ -270,37 +352,166 @@ Designed and deployed a secure remote access solution to manage enterprise infra
 - VPN Deployment
 - Remote Administration
 - Infrastructure Troubleshooting
-- Remote Device Management
+- Secure Connectivity
 
 ---
 
 ### Outcome
 
-Implemented secure remote connectivity allowing enterprise infrastructure to be monitored and administered remotely while maintaining network security.
+Successfully enabled secure remote administration of the enterprise lab environment, improving accessibility while maintaining network security.
 
 ---
 
 [🚀 Read Full Case Study](projects/Project-04-Remote-Infrastructure-Access-Lab.md)
 
+
+## Project 05 – Microsoft Intune Endpoint Management Lab
+
+### Overview
+
+Built a Microsoft Intune testing environment to explore modern endpoint management, cloud administration and Microsoft 365 device lifecycle management.
+
 ---
 
-## 3.Remote Station Trunk Deployment and Troubleshooting
+### Technologies
 
-Technologies:
+- Microsoft Intune
+- Microsoft Entra ID
+- Windows 10
+- Microsoft 365
+- Endpoint Management
+
+---
+
+### Skills Demonstrated
+
+- Device Enrolment
+- Endpoint Management
+- Microsoft 365 Administration
+- Cloud Identity
+- Modern Workplace Fundamentals
+
+---
+
+### Outcome
+
+Successfully explored Microsoft cloud-based endpoint management concepts and gained practical experience with modern workplace administration and device compliance.
+
+---
+
+[🚀 Read Full Case Study](projects/Project-05-Microsoft-Intune-Endpoint-Management-Lab.md)
+
+---
+
+## Project 06 – Ruijie ES226 VLAN Trunk Troubleshooting
+
+### Overview
+
+Investigated and resolved VLAN trunk communication issues between Cisco and Ruijie switches using structured enterprise troubleshooting techniques.
+
+---
+
+### Technologies
 
 - Cisco Catalyst 3560
 - Ruijie ES226
-- 802.1Q Trunking
+- IEEE 802.1Q
 - VLAN Design
 
-Skills Demonstrated:
+---
 
-- Layer 1 Troubleshooting
-- Fault Isolation
+### Skills Demonstrated
+
+- VLAN Troubleshooting
 - Trunk Configuration
-- CCTV Infrastructure Support
-  
-[🚀 Read Full Case Study](projects/Project-03-Windows-Server-2019-Active-Directory-Infrastructure-Lab.md)
+- Layer 2 Networking
+- Fault Isolation
+- Enterprise Network Support
+
+---
+
+### Outcome
+
+Successfully restored VLAN trunk communication and validated interoperability between Cisco and Ruijie networking equipment through systematic troubleshooting.
+
+---
+
+[🚀 Read Full Case Study](projects/Project-06-Ruijie-ES226-Vlan-Trunk-Troubleshooting.md)
+
+---
+
+## Project 07 – Remote Station Troubleshooting
+
+### Overview
+
+Performed structured troubleshooting on a remote networking environment, identifying connectivity issues and restoring communication through systematic fault isolation.
+
+---
+
+### Technologies
+
+- Cisco Networking
+- Remote Access
+- SSH
+- VLAN
+- TCP/IP
+
+---
+
+### Skills Demonstrated
+
+- Remote Troubleshooting
+- Infrastructure Support
+- Network Diagnostics
+- Root Cause Analysis
+- Technical Documentation
+
+---
+
+### Outcome
+
+Successfully resolved remote network issues while documenting the troubleshooting process to improve future operational efficiency and knowledge sharing.
+
+---
+
+[🚀 Read Full Case Study](projects/Project-07-Remote-Station-Troubleshooting.md)
+
+## Project 08 – Ruijie EW1200R Mesh Deployment and Cloud Management
+
+### Overview
+
+Designed and deployed a cloud-managed wireless mesh solution using Ruijie/Reyee networking products to evaluate wireless coverage, roaming performance and centralised management.
+
+---
+
+### Technologies
+
+- Ruijie EW1200R
+- Reyee Cloud
+- Mesh Wi-Fi
+- VLAN
+- Guest Wi-Fi
+
+---
+
+### Skills Demonstrated
+
+- Wireless Deployment
+- Mesh Networking
+- Cloud Management
+- SSID Design
+- Guest Network Configuration
+- Wireless Troubleshooting
+
+---
+
+### Outcome
+
+Successfully deployed and validated a cloud-managed wireless mesh network with centralised monitoring, guest Wi-Fi services and remote cloud administration.
+
+---
+
+[🚀 Read Full Case Study](projects/Project-08-Ruijie-EW1200R-Mesh-Deployment-and-Cloud-Management.md)
 
 ---
 
