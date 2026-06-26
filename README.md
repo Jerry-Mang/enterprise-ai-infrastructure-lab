@@ -28,6 +28,10 @@ Building infrastructure knowledge through real projects, practical documentation
 
 https://jerry-mang.github.io/enterprise-ai-infrastructure-lab/
 
+https://github.com/Jerry-Mang/jerry-infrastructure-lab/
+
+
+
 ## Featured Projects
 
 | Project                              | Technologies                                                                | Status      | Difficulty    |
