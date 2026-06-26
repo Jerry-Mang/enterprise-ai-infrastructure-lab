@@ -24,7 +24,7 @@ Building infrastructure knowledge through real projects, practical documentation
 
 ---
 
-🌐 Live Project Site:
+[🌐 Live Project Site:]
 
 [🚀 Read Full Case Study](projects/Project-01-Cisco-Network-Foundation-Lab.md)
 
