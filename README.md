@@ -1,6 +1,28 @@
 # Jerry Infrastructure Lab
 
-This repository documents the development of an enterprise infrastructure testing environment designed to simulate real-world networking, virtualization, wireless, CCTV and AI-assisted infrastructure scenarios.
+Enterprise Infrastructure • Networking • Solution Design
+
+Jerry Infrastructure Lab is a practical technical portfolio focused on enterprise networking, infrastructure systems, wireless solutions, virtualization, Microsoft technologies and technical documentation.
+
+This lab documents real-world infrastructure learning through hands-on projects, troubleshooting cases, solution design, deployment notes and technical knowledge assets.
+
+Building infrastructure knowledge through real projects, practical documentation and continuous improvement.
+
+---
+
+## Current Focus
+
+- Enterprise Networking
+- Cisco Routing & Switching
+- VMware ESXi Infrastructure
+- Windows Server & Active Directory
+- Microsoft 365 / Hybrid Infrastructure
+- Ruijie / Reyee Wireless Solutions
+- CCTV & IP Network Integration
+- Technical Support & Pre-Sales Engineering
+- Solution Design, BOMs and Documentation
+
+---
 
 🌐 Live Project Site:
 
@@ -14,6 +36,34 @@ https://jerry-mang.github.io/enterprise-ai-infrastructure-lab/
 | Remote Infrastructure Access Lab     | Tailscale VPN, VMware ESXi, Windows Server 2019, Secure Remote Access       | Complete    | Intermediate  |
 | Remote Station Trunk Troubleshooting | 802.1Q Trunking, VLAN Troubleshooting, Ruijie ES226, Root Cause Analysis    | Complete    | Intermediate  |
 | Windows Server Active Directory Lab  | Windows Server 2019, DNS, DHCP, Domain Services                             | In Progress | Intermediate  |
+
+---
+
+## Solutions Portfolio
+
+This section will develop into a practical library of infrastructure and networking solution designs.
+
+Planned solution case studies:
+
+- Small Office Network Design
+- Warehouse Wi-Fi Solution
+- Guest Wi-Fi with Captive Portal
+- CCTV Network Segmentation
+- VLAN Design for SMB Environments
+- Ruijie / Reyee Cloud-Managed Networking
+- Hybrid Infrastructure Lab
+- Microsoft 365 and On-Prem Integration
+
+Each solution will include:
+
+- Customer Requirements
+- Network Topology
+- VLAN Design
+- Hardware Selection
+- BOM Structure
+- Technical Reasoning
+- Risk Considerations
+- Documentation Notes
 
 ---
 
